@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="fieldgoal">Fieldgoal</string>
+    <string name="pointConversion">2 point-conversion</string>
+    <string name="safety">Safety</string>
+    <string name="extraPoint">Extra point</string>
+    <string name="legend">Legend: \nTouchdown - 6p, Fieldgoal - 3p, 2 point-conversion - 2p, Safety - 2p, Extra point - 1p.</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="appDescription">Score app for american football game</string>
+</resources>
