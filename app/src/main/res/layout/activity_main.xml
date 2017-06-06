@@ -75,7 +75,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="fieldgoalTeamA"
                 android:text="@string/fieldgoal"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
 
             <Button
                 android:id="@+id/pointsConversion_teamA"
