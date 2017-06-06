@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d7f2db">
+    android:background="@color/colorBackground">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:paddingBottom="16dp"
                 android:paddingTop="16dp"
-                android:text="TEAM A"
+                android:text="@string/teamA"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -62,7 +62,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="touchdownTeamA"
                 android:text="@string/touchdown"
-                android:textSize="12dp">
+                android:textSize="12sp">
 
             </Button>
 
@@ -86,7 +86,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="twoPointsConversionTeamA"
                 android:text="@string/pointConversion"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
             <Button
                 android:id="@+id/safety_teamA"
                 android:layout_width="match_parent"
@@ -96,7 +96,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="safetyTeamA"
                 android:text="@string/safety"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
 
             <Button
                 android:id="@+id/extraPoint_teamA"
@@ -106,7 +106,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="extraPointTeamA"
                 android:text="@string/extraPoint"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
         </LinearLayout>
 
 
@@ -134,7 +134,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:paddingBottom="16dp"
                 android:paddingTop="16dp"
-                android:text="TEAM B"
+                android:text="@string/teamB"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -158,7 +158,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="touchdownTeamB"
                 android:text="@string/touchdown"
-                android:textSize="12dp">
+                android:textSize="12sp">
 
             </Button>
 
@@ -171,7 +171,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="fieldgoalTeamB"
                 android:text="@string/fieldgoal"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
 
             <Button
                 android:id="@+id/pointsConversion_teamB"
@@ -182,7 +182,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="twoPointsConversionTeamB"
                 android:text="@string/pointConversion"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
             <Button
                 android:id="@+id/safety_teamB"
                 android:layout_width="match_parent"
@@ -192,7 +192,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="safetyTeamB"
                 android:text="@string/safety"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
 
             <Button
                 android:id="@+id/extraPoint_teamB"
@@ -202,7 +202,7 @@
                 android:layout_marginRight="30dp"
                 android:onClick="extraPointTeamB"
                 android:text="@string/extraPoint"
-                android:textSize="12dp"></Button>
+                android:textSize="12sp"></Button>
         </LinearLayout>
 
 
